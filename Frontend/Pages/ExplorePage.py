@@ -65,7 +65,7 @@ class ExplorePage(tk.Frame):
         for posts in self.displayed_posts:
             posts.destroy()
         self.displayed_posts.clear()
-
+        
 
         url = 'http://127.0.0.1:5000/get'
         headers = {

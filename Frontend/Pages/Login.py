@@ -35,7 +35,6 @@ class Login(tk.Frame):
             self.controller.show_page('Explore Page')
             self.controller.pages['Explore Page'].show_posts()
 
-    # TODO: Update this to actually validate users
     def validate_login(self):
         url = 'http://127.0.0.1:5000/login'
         headers = {'Content-Type': 'application/json'}

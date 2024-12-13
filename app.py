@@ -21,8 +21,8 @@ def login():
 #minio_client
 minio_client = Minio(
     'localhost:9000',
-    access_key='aaaaaaaa',
-    secret_key='aaaaaaaa',
+    access_key='access_key',
+    secret_key='secret_key',
     secure=False
     )
 
